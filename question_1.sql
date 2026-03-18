@@ -17,5 +17,4 @@ join yearly_wages as prev
 on prev.industry = pres.industry 
 and pres.year = prev.year + 1
 where (pres.wage - prev.wage) < 0
-order by prev.industry, pres.year
-);
+order by prev.industry, pres.year;
