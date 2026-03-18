@@ -38,7 +38,8 @@ CTE czechia_payroll_full se filtruje podle kódů 5958 a 200, protože pro výzk
 V selectech jsou vybrané pouze relevantní informace pro výzkum a tabulky czechia_payroll a czechia_price jsou spojené pomocí roku a kvartálu pro detailní informace.
 
 ### t_matous_segen_project_SQL_secondary_final
-    
+Tabulka secondary vytahuje data o evropských státech z tabulky economies. Propojení s tabulkou countries je čistě z důvodu chybějící informace o kontinentu protože jinak neobsahuje relevantní informace pro náš výzkum. Data jsou zároveň filtrovaná mezi roky 2006 a 2018, protože mimo tento rozsah neexistují data z tabulky primary a nebylo by možné s nimi pracovat.
+
 ## Výzkumné otázky
 
 ### Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají?
