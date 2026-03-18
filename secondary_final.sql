@@ -12,5 +12,3 @@ create table t_matous_segen_project_SQL_secondary_final as (
 	and e.year between 2006 and 2018
 	order by e.country, e.year
 );
-
-select * from economies e 
