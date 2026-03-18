@@ -11,7 +11,7 @@ select
 	prev.wage as previous_wage,
 	pres.wage as present_wage,
 	(pres.wage - prev.wage) as difference,
-	pres.year
+	prev.year
 from yearly_wages  as pres
 join yearly_wages as prev
 on prev.industry = pres.industry 
