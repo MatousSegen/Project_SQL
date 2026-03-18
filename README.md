@@ -46,6 +46,7 @@ Tabulka secondary vytahuje data o evropských státech z tabulky economies. Prop
 Ze selectu v souboru question_1.sql je zřejmé, že je docela dost oborů, ve kterých mzda dokázala v průběhu let rovněž klesat. Na datech je vidět, že poklesy mzdy byly právě po roce roce 2008, kdy byla ekonomická krize. Zajímavé je, že poslední pokles v našich datech je v roce 2015 v oblasti Těžba a dobývání, což by mohlo souvislost s tehdejší ekologickou politikou v evropě.
 
 ### Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?
+Select v dalším souboru ukazuje, že u těchto potravin se kupní síla čechů zlepšuje. Krajní období, která z dat šla porovnat byla Q1 2006 a Q4 2018. Zajímavé je, že mléko si v čase nedrží hodnotu tak dobře, jako chléb, který stíhá více zdražovat a vůči mzdám si lépe drží hodnotu. 
 
 ### Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)? 
 
