@@ -49,8 +49,9 @@ Ze selectu v souboru question_1.sql je zřejmé, že je docela dost oborů, ve k
 Select v dalším souboru ukazuje, že u těchto potravin se kupní síla čechů zlepšuje. Krajní období, která z dat šla porovnat byla Q1 2006 a Q4 2018. Z dat by mohlo vypadat, že chléb si lépe drží hodnotu vůči mzdám a skutečně tomu tak může být, ale vzhledem k tomu, že se porovnávají kvartály, je možné, že bylo v daném období třeba méně pšenice, což vyhnalo ceny, nebo měli mlékaři produktivní dojné krávy.
 
 ### Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)? 
-Z dat plyne, že nejnižší průměrný meziroční nárust ceny je u Cukru krystal a to do takové míry, že na sledovaném období zlevňuje skoro o 2%.
+Z dat plyne, že nejnižší průměrný meziroční nárust ceny je u Cukru krystal a to do takové míry, že na dostupném období zlevňuje skoro o 2%.
 
 ### Existuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %)?
+Pro 4. a 5. otázku jsem vytvořil view yearly_prices_and_wages_percentage, kde na dostupném období porovnávám meziroční procentuální rozdíly ve mzdách (jako průměr všech odvětví) a cenách potravin (jako průměr procentuálního meziročního nárůstu ceny všech produktů). V této otázce potom pouze porovnám data mezd a cen, kde rozdíl procent je větší než 10. Vrácena je prázdná tabulka, což znamená, že takový rozdíl meziročně v průměru nenastal.
 
 ### Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo následujícím roce výraznějším růstem?
