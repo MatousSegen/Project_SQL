@@ -15,10 +15,10 @@ create or replace view yearly_prices_and_wages_percentage as (
 		as wage_percentage,
 		round(avg((((pres.price - prev.price) / prev.price) * 100))::numeric, 2)
 		as price_percentage,
-		pres.year
+		prev.year
 	from yearly_prices_and_wages as prev
 	join yearly_prices_and_wages as pres
 	on pres.year = prev.year + 1
 	and prev.category = pres.category
-	group by pres.year
+	group by prev.year
 );
