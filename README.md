@@ -33,6 +33,9 @@ jako primární přehled pro ČR.
 ## Výsledné tabulky
 
 ### t_matous_segen_project_SQL_primary_final
+V tabulce primary jsou předpřipravené data z tabulek czechia_payroll a czechia_price pomocí CTE pro finální select.
+CTE czechia_payroll_full se filtruje podle kódů 5958 a 200, protože pro výzkum nejsou údaje o počtu zaměstnanců a fyzické kalkulace relevantní.
+V selectech jsou vybrané pouze relevantní informace pro výzkum a tabulky czechia_payroll a czechia_price jsou spojené pomocí roku a kvartálu pro detailní informace.
 
 ### t_matous_segen_project_SQL_secondary_final
     
