@@ -43,6 +43,7 @@ Tabulka secondary vytahuje data o evropských státech z tabulky economies. Prop
 ## Výzkumné otázky
 
 ### Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají?
+Ze selectu v souboru question_1.sql je zřejmé, že je docela dost oborů, ve kterých mzda dokázala v průběhu let rovněž klesat. Na datech je vidět, že poklesy mzdy byly právě po roce roce 2008, kdy byla ekonomická krize. Zajímavé je, že poslední pokles v našich datech je v roce 2015 v oblasti Těžba a dobývání, což by mohlo souvislost s tehdejší ekologickou politikou v evropě.
 
 ### Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?
 
