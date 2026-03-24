@@ -10,4 +10,4 @@ select
 	cs.year
 from yearly_prices_and_wages as ypaw
 join czech_stats as cs
-on ypaw.year = cs.year
+on ypaw.year = cs.year;
