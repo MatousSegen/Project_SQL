@@ -1,5 +1,6 @@
 # Projekt z SQL
-
+Tento projekt je součástí kurzu python data analyst od Engeto. Zdrojová data nejsou součástí repozitáře z důvodu autorských práv.
+## Popis
 Na vašem analytickém oddělení nezávislé společnosti, která se zabývá životní úrovní občanů, jste se dohodli,
 že se pokusíte odpovědět na pár definovaných výzkumných otázek, které adresují dostupnost základních potravin široké veřejnosti. 
 Kolegové již vydefinovali základní otázky, na které se pokusí odpovědět a poskytnout tuto informaci tiskovému oddělení.
